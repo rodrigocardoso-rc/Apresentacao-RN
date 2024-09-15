@@ -41,8 +41,8 @@ export default function DetailView(props: DetailViewProps) {
                 showsVerticalScrollIndicator={false}
                 numColumns={3}
                 keyExtractor={item => item}
-                columnWrapperStyle={{ gap: 8 }}
-                contentContainerStyle={{ gap: 8 }}
+                contentContainerStyle={styles.listContent}
+                columnWrapperStyle={styles.listWrapper}
                 ListEmptyComponent={
                     <NoContentList message={`Nenhuma imagem encontrada para ${pokemon.name}`} />
                 } />

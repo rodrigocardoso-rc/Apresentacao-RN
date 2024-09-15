@@ -20,5 +20,11 @@ export default StyleSheet.create({
         fontSize: Dimensions.fontSize.medium,
         fontWeight: '400',
         color: Colors.text
+    },
+    listContent: {
+        gap: Dimensions.gap.medium,
+    },
+    listWrapper: {
+        justifyContent: 'space-between'
     }
 });

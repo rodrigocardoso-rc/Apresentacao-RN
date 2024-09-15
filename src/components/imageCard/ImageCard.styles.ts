@@ -2,7 +2,7 @@ import { StyleSheet, Dimensions as DimensionsRn } from "react-native";
 import { Colors } from "../../styles/Colors";
 import { Dimensions } from "../../styles/Dimensions";
 
-const imageSize = DimensionsRn.get("screen").width / 3.6
+const imageSize = DimensionsRn.get("screen").width / 3.8
 
 export default StyleSheet.create({
     container: {
@@ -15,5 +15,6 @@ export default StyleSheet.create({
     image: {
         height: imageSize,
         width: imageSize,
+        borderRadius: Dimensions.borderRadius.large
     }
 });
